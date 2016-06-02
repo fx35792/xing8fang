@@ -1,0 +1,257 @@
+/****common style****/
+#header{width: 100%;height: 90px;}
+.header-content{width: 1000px;height: 66px;margin: 0px auto;top: 15px;position: relative;}
+.header-content .logo{position: relative;float: left;margin: 10px 0px;}
+.header-content .mainNav{float: right;position: relative;margin: 30px 0px 0px;}
+.mainNav li {list-style:outside none none;float:left;}
+.mainNav li a {font-size:18px;margin:25px;color:#414141;}
+.mainNav li a:hover {color:#00A8FF;border-bottom: 2px solid #00A8FF;cursor:pointer;}
+.logo {position: relative;float: left;margin: 4px 0px;}
+#logo ,.hot:hover{cursor:pointer;}
+.hot {position: relative;float: right;top: -46px;right: 190px;}
+.act {border-bottom: 2px solid #00A8FF;}
+
+#footer{width: 100%;text-align: center;background-color: #535353;color:#fff;padding:30px 0;}
+#footer p{line-height: 25px;font-size: 14px;}
+
+/**返回顶部**/
+#rocket-to-top div {left:0;margin:0;overflow:hidden;padding:0;position:absolute;top:0;width:149px;}
+#rocket-to-top .level-2 {background:url(../images/index/rocket_up.png) no-repeat scroll -149px 0 transparent;display:none;height:250px;opacity:0;z-index:1;}
+#rocket-to-top .level-3 {background:none repeat scroll 0 0 transparent;cursor:pointer;display:block;height:150px;z-index:2;}
+#rocket-to-top {
+background:url(../images/index/rocket_up.png) no-repeat scroll 0 0 transparent;cursor:default;display:block;height:250px;margin:-125px 0 0;overflow:hidden;padding:0;position:fixed;right:0;top:80%;width:149px;z-index:11;}
+
+/****index style****/
+.bftc_intro{width: 100%;}
+.bftc_intro_content {width:1000px;margin: 30px auto;}
+.bftc_intro_content_right{float: left;white-space: normal;width: 496px;margin: 0px 0px 0px 90px;}
+.bftc_intro_content_right h2{font-size: 40px;line-height: 85px;color: rgb(99, 99, 99);font-weight: normal;}
+.bftc_intro_content_right h2 span{color:#ea5413;}
+.bftc_intro_content_right h2 em{font-size: 14px;top: -8px;position: relative;margin: 0px 8px;}
+.bftc_intro_content_right h3{font-size: 22px;line-height: 55px;color: #000;font-weight: normal;}
+.bftc_intro_content_right h3 span{color: #00B5FF;}
+.bftc_intro_content_right p{font-size: 14px;line-height: 30px;text-align: justify;}
+.bftc_intro_content_right p span{margin: 0px 75px 0px 0px;}
+
+.bftc_content{width: 100%;background-color: #2A96EA;}
+.bftc_part{width:1000px;margin: 0 auto;padding:30px 0;}
+.bftc_part1{color:#fff;}
+.bftc_part1_left{white-space: normal;width: 420px;color: #FFF;}
+.bftc_part1_left h2{font-size: 22px;line-height: 55px;font-weight: normal;}
+.bftc_part_left h2 em{padding:0px 5px;}
+.bftc_part_left p{position: relative;top: 5px;color: #FFF;font-size: 14px;line-height: 35px;text-align: justify;}
+
+.bftc_part2  .bftc_part1_left{color: #00B5FF;}
+.bftc_part2 .bftc_part_left p{color:#00B5FF;}
+
+.bftc_advance{width:100%;}
+.bftc_advance_cont{width: 1000px;margin: 0 auto;padding:30px 0;}
+.advance_tile{text-align: center;line-height: 100px;font-size: 40px;font-weight: bolder;color: #636363;}
+.advance_tile span{border-bottom: 1px solid #b5b3b3;width:340px;position: relative;top: 50px;display: inline-block;}
+.advance_tile span.line1{margin-right:20px;}
+.advance_tile p{float: left;}
+.advance_tile p em{color:#ff6a00;}
+
+.bftc_body .item{position: relative;float: left;margin: 0px 5px 10px;width: 232px;height: 240px;text-align: center;}
+.bftc_body .item h3{position: relative;font-size: 18px;line-height: 45px;color: #484747;font-weight: 700;}
+.bftc_body .item p{margin: 0px 11px;line-height: 23px;position: relative;}
+
+.bftc_erweima{width: 100%;padding:0px 0 50px;margin-top: -40px;}
+.bftc_erweima .down{text-align: center;width:500px;float: left;}
+.bftc_erweima .down p{font-size: 16px;line-height: 30px;}
+.bftc_erweima img{width: 150px;}
+
+/****aboutUs style****/
+.div_i_content{width:100%;}
+.div_i_content_center{margin:0px auto;width:1000px;}
+.div_iii_content_centter_1_1{height: auto;width: 100%;float: left;}
+#divUs{width: 100%;height: auto;margin: 25px 0px;position: relative;float: left;}
+.div_o,.div_w,.div_long1,.div_long2,.div_img1,.div_img2,.div_img3,.div_img4,.div_img5,.div_img6,.div_img7,.div_img8{border: 0px solid;border-radius: 5px;margin:4px;height:172px;position:relative;float:left;margin:4px;overflow:hidden;z-index:0;-moz-border-radius: 6px;/* Firefox*/-webkit-border-radius: 6px;/* Safari 和 Chrome*/border-radius: 5px;/* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器*/behavior: url(ie-css3.htc);/* 通知IE浏览器调用脚本作用于'box'类*/}
+#divUs img{border: 0px solid;border-radius: 5px;}
+.div_long1{width:636px;background: url(../images/aboutus/pic1.jpg) 0px 0px no-repeat;}
+.div_img1{width:314px;background: url(../images/aboutus/pic2.jpg) 0px 0px no-repeat;}
+.div_img2{width:314px;background: url(../images/aboutus/pic3.jpg) 0px 0px no-repeat;}
+.div_img3{width:314px;background: url(../images/aboutus/pic4.jpg) 0px 0px no-repeat;}
+.div_img4{width:314px;background: url(../images/aboutus/pic5.jpg) 0px 0px no-repeat;}
+.div_img5{width:314px;background: url(../images/aboutus/pic6.jpg) 0px 0px no-repeat;}
+.div_img6{width:314px;background: url(../images/aboutus/pic7.jpg) 0px 0px no-repeat;}
+.div_img7{width:314px;background: url(../images/aboutus/pic9.jpg) 0px 0px no-repeat;}
+.div_img8{width:314px;background: url(../images/aboutus/pic10.jpg) 0px 0px no-repeat;}
+.div_long2{width:636px;background: url(../images/aboutus/pic8.jpg) 0px 0px no-repeat;}
+.div_w{float: left;position: relative;width: 314px;height: 172px;color: #fff;background-color: #00A8FF;}
+.div_o{color: #fff;background-color: #00A8FF;width: 314px;}
+#divUs span{float: left;padding: 25px;margin: 25px;line-height: 35px;font-size: 23px;position:absolute;}
+.div_show_img{position: absolute;float: left;width: 572px;}
+.divfades {border: 0px solid;border-radius: 5px;height: 172px;width: 314px;position: absolute;background-color: #0072AD;opacity: 0.57;filter:alpha(opacity=57);display: none;}
+
+/****aboutMe style****/
+.company_intro{width: 100%;}
+.divShowImg_1 {width:100%;height: auto;}
+.divShowImg_1 img {width:100%;}
+.abouttitle{height: 50px;line-height: 50px;}
+.abouttitle a{background: url(../images/aboutus/flag_house.png) no-repeat 0px;padding-left: 26px;display: inline-block;font-size: 14px;}
+.abouttitle em{padding: 0px 3px;}
+.abouttitle span{color: #ff6a00;}
+.company_intro_content{margin-bottom: 50px;}
+.company_intro_content h3{background: url(../images/aboutus/flag.png) no-repeat 0px;font-size: 26px;line-height: 70px;position: relative;color: rgb(0, 0, 0);font-weight: 900;padding-left: 30px;}
+.company_intro_content p{width: 920px;margin-left: 30px;margin-bottom:15px;color: #535353;line-height: 30px;white-space: normal;position: relative;font-size: 14px;}
+
+.company_staff_content{margin-bottom: 30px;}
+.company_address_content{margin-bottom: 50px;font-size: 14px;}
+.company_address_content h3{color: #ff6a00;font-size: 18px;line-height: 50px;margin-top: 25px;}
+.company_address_content p{line-height: 30px;}
+
+.company_welfare_content{margin-bottom: 50px;position: relative;}
+.company_welfare_content .welfare{line-height: 30px;width: 500px;position: absolute;top:420px;float: left;font-size: 14px;}
+.company_welfare_content .welfare p{margin-bottom: 20px;}
+
+
+.join_title{text-align: center;width: 100%;}
+.join_title h3{line-height: 70px;font-size: 28px;font-weight: normal;color: #535353;}
+.join_title p{font-size: 14px;line-height: 30px;}
+.condowndiv{float:left;position:relative;width:100%;margin: 7px auto;}
+.contectuptitle {float:left;width:100%;text-align:center;line-height:70px;font-size:28px;}
+.downtitle {float:left;position:relative;width:230px;text-align:right;font-size:20px;top: 0px;left: 0px;}
+.downconten {float:left;position:relative;width:700px;margin:0px 0px 0px 40px;line-height:25px;}
+.downbtn {border:2px solid #5e5e5e;width:180px;height:35px;line-height:35px;text-align:center;margin:25px 0px;cursor:pointer;}
+.downbtn:hover {background-color:#535353;color:#FFF;}
+.downimgbtn {float:right;text-align:right;cursor:pointer;right: 50px;position: relative;}
+
+
+/**app style**/
+.main{background:#00A8FF none repeat scroll 0 0;width:100%;font-family:Microsoft YaHei}
+.con1{width:1000px;min-width:1000px;height:100%;height:530px;position:relative;margin:0 auto;background:#00A8FF none repeat scroll 0 0}
+.phonediv{position:absolute;left:0;bottom:-70px}
+.phonediv img{width:456px;height:596px}
+.applogo{position:absolute;left:600px;top:85px;width:139px;height:43px}
+.appword{position:absolute;left:600px;top:135px;height:78px;width:290px;font-family:TSZT;font-size:70px;font-weight:400;color:#201816;margin-top:-14px}
+.appcode{position:absolute;left:600px;top:267px;width:123px;height:123px}
+.androiddown{background:url(../images/app/dandroid1.png) no-repeat scroll 0 0;position:absolute;left:736px;top:267px;width:159px;height:46px}
+.iphonedown{background:url(../images/app/diphone1.png) no-repeat scroll 0 0;position:absolute;left:736px;top:344px;width:159px;height:46px}
+.androiddown:hover{background:url(../images/app/dandroid.png) no-repeat}
+.iphonedown:hover{background:url(../images/app/diphone.png) no-repeat}
+.first_cotent{margin:0 auto;text-align:center;position:relative;padding-top:10%}
+.first_title{display:inline-block;margin:0 auto;height:100px;text-align:center;width:1000px;font-family:TSZT;font-style:normal;font-weight:100;font-size:80px;color:#fff}
+.first_erweima{height:300px;width:246px;margin:0 auto;padding-top:4%}
+.ios_down{color:#f69a16;font-family:Microsoft YaHei;font-size:14px;padding-top:4px;margin-left:10px;padding-left:30px;width:52px;height:28px;float:left;background:url(../images/app/ios.png) no-repeat;text-decoration:underline;margin-top:5px}
+.andr_down{color:#f69a16;font-family:Microsoft YaHei;font-size:14px;padding-top:4px;margin-right:11px;padding-left:10px;width:52px;height:28px;float:right;background:url(../images/app/andr.png) no-repeat;text-decoration:underline;text-align:right;padding-right:5px;margin-top:5px}
+.ios_anddown{height:40px;margin:0 auto;font-size:14px;background-color:#fff;width:246px}
+.download{text-align:center;margin:0 auto;width:1000px}
+.down_iph{background:url(../images/app/down_iphone.png) no-repeat scroll 0 0;display:inline-block;font-size:22px;font-weight:100;color:#fff;width:340px;height:76px}
+.down_and{background:url(../images/app/down_andriod.png) no-repeat scroll 0 0;display:inline-block;font-size:22px;font-weight:100;color:#fff;width:340px;height:76px}
+.download a{padding-top:23px}
+.fm2{height:780px;margin:0 auto;width:1000px;position:relative}
+.fmcon2{background:url(../images/app/main2.jpg) no-repeat scroll 0 0;font-family:Microsoft YaHei;font-size:45px;font-weight:100;height:780px;position:relative;width:1000px;color:#444;margin-top:70px}
+.cwtl1{font-size:45px;font-weight:100;left:94px;position:absolute;top:169px;text-align:left;color:#444}
+.se_title{font-family:TSZT;font-size:25px;font-weight:400}
+.main2{background:#fff none repeat scroll 0 0;width:100%}
+.fm3{height:780px;margin:0 auto;overflow:hidden;width:1000px;position:relative;background:#f1f1f1 none repeat scroll 0 0}
+.fmcon3{background:url(../images/app/main3.jpg) no-repeat scroll 0 0;font-family:Microsoft YaHei;font-size:45px;font-weight:100;height:780px;position:relative;width:1000px;color:#444}
+.tr_title1{font-family:Microsoft YaHei;font-size:45px;font-weight:100;right:5px;position:absolute;top:140px;color:#444;text-align:left}
+.main3{background:#f1f1f1 none repeat scroll 0 0;width:100%}
+.fm4{height:780px;margin:0 auto;width:1000px;position:relative}
+.fmcon4{background:url(../images/app/main4.jpg) no-repeat scroll 0 0;font-family:Microsoft YaHei;font-size:45px;font-weight:100;height:780px;position:relative;width:1000px;color:#444}
+.fo_title1{font-family:Microsoft YaHei;font-size:45px;font-weight:100;color:#444;text-align:center;padding-top:90px}
+.main4{width:100%;background:#fff none repeat scroll 0 0}
+.fm5{height:780px;margin:0 auto;overflow:hidden;width:1000px;position:relative;background:#f1f1f1 none repeat scroll 0 0}
+.fmcon5{background:url(../images/app/main5.jpg) no-repeat scroll 0 0;font-family:Microsoft YaHei;font-size:45px;font-weight:100;height:780px;position:relative;width:1000px;color:#444}
+.fi_title1{font-family:Microsoft YaHei;font-size:45px;font-weight:100;height:180px;left:42px;position:absolute;top:120px;width:370px;color:#444}
+.main5{width:100%;background:#f1f1f1 none repeat scroll 0 0}
+.fm6{height:780px;margin:0 auto;overflow:hidden;width:1000px;position:relative;top:0;background:#f5f5f5 none repeat scroll 0 0}
+.fmcon6{background:url(../images/app/main6.jpg) no-repeat scroll 0 0;font-family:Microsoft YaHei;font-size:45px;font-weight:100;height:780px;position:relative;width:1000px;color:#444}
+.si_title1{font-family:Microsoft YaHei;font-size:45px;font-weight:100;padding-top:75px;text-align:center;color:#444}
+.main6{width:100%;background:#f5f5f5 none repeat scroll 0 0}
+
+/**product style**/
+.pro_content_center {margin:0px auto 50px;width:1000px;}
+.pro_content_center h2{background: url(../images/product/flag.png) 0 no-repeat;padding-left: 30px; font-size: 26px;line-height: 60px;color: rgb(0, 0, 0);font-weight: 900;}
+.pro_content_center p{padding-left: 30px;color: #535353;line-height: 30px;white-space: normal;font-size: 14px;margin-bottom: 10px;}
+
+
+/**team style**/
+.manage-team{width:100%;overflow:hidden;}
+.team-main{width:995px;margin:20px auto;overflow:hidden;background-color: #fff;box-shadow: 0px 1px 4px 2px rgb(204,204,204);}
+.team{width:316px;overflow:hidden;padding: 20px 0;}
+.team:hover{width:312px;border-left: 4px solid #ff7b23;}
+.team img{border-radius:50%;margin-left: 70px;margin-right: 20px;}
+.team b{display:inline-block;font-size: 18px;color:#000;display: block;line-height: 48px;}
+.team span{font-size: 14px;color:#000;opacity: 0.8;filter:Alpha(opacity=80);}
+.team-main p{width:645px;padding-right:30px;text-align: justify;color:#000;opacity: 0.8;filter:Alpha(opacity=80);float: right;margin-top: 30px;line-height: 24px;}
+
+/**cooperation style**/
+.cooperation_content{text-align: center;}
+.advance_tile1{text-align: center;line-height: 100px;font-size: 40px;font-weight: bolder;color: #636363;}
+.advance_tile1 span{border-bottom: 1px solid #b5b3b3;width:400px;position: relative;top: 50px;display: inline-block;}
+.advance_tile1 span.line1{margin-right:20px;}
+.advance_tile1 p{float: left;}
+.advance_tile1 p em{color:#ff6a00;}
+
+.advance_tile2{text-align: center;line-height: 100px;font-size: 40px;font-weight: bolder;color: #636363;}
+.advance_tile2 span{border-bottom: 1px solid #b5b3b3;width:380px;position: relative;top: 50px;display: inline-block;}
+.advance_tile2 span.line1{margin-right:20px;}
+.advance_tile2 p{float: left;}
+.advance_tile2 p em{color:#ff6a00;}
+.cooperation_advance h2{background: url(../images/product/flag.png) 0 no-repeat;padding-left: 30px; font-size: 18px;line-height: 60px;color: rgb(0, 0, 0);font-weight: 900;}
+.cooperation_advance p{padding-left: 30px;color: #535353;line-height: 30px;white-space: normal;font-size: 14px;margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
