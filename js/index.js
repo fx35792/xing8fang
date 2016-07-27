@@ -1,11 +1,11 @@
 $(function(){
     //1.轮播图
     $("#kinMaxShow").kinMaxShow({   
-        height:500,            
+        height:400,            
         button:{    
             switchEvent:'mouseover',         
             showIndex:false,                    
-            normal:{background:'url(images/index/button_default.png) no-repeat',marginRight:'8px',border:'0',right:'46%',bottom:'20px',height:'15px',width:'15px'},
+            normal:{background:'url(images/index/button_default.png) no-repeat',marginRight:'8px',border:'0',right:'46%',bottom:'7px',height:'15px',width:'15px'},
             focus:{background:'url(images/index/button_current.png) no-repeat',border:'0'}
         }           
     });

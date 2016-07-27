@@ -63,7 +63,7 @@ background:url(../images/index/rocket_up.png) no-repeat scroll 0 0 transparent;c
 
 /****aboutUs style****/
 .x-about-us{width:100%;position: relative;}
-.ab-banner{background: url(../images/aboutus/banner.jpg) center no-repeat;width: 100%;height: 304px;}
+.ab-banner{background: url(../images/aboutus/banner.jpg) center no-repeat;width: 100%;height: 400px;}
 .demo{width:800px; margin:60px auto 10px auto}
 .box{float:left; width:380px; height:280px}
 .he_border1{background:#202020;width:360px;height:240px;padding:0;margin:0;position:relative;box-sizing:border-box;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden}
@@ -156,6 +156,8 @@ background:url(../images/index/rocket_up.png) no-repeat scroll 0 0 transparent;c
 .he_slideAllDown:hover .he_slideAllDown_caption_p{color:#fff;top:45%;opacity:1}
 /****aboutMe style****/
 .company_intro{width: 100%;}
+.staff-banner{background: url(../images/aboutus/banner2.jpg) center no-repeat;width: 100%;height: 400px;}
+.company_intro-banner{background: url(../images/aboutus/banner5.jpg) center no-repeat;width: 100%;height: 400px;}
 .divShowImg_1 {width:100%;height: auto;}
 .divShowImg_1 img {width:100%;}
 .abouttitle{height: 50px;line-height: 50px;}
@@ -194,7 +196,7 @@ background:url(../images/index/rocket_up.png) no-repeat scroll 0 0 transparent;c
 .phonediv{position:absolute;left:0;bottom:-70px}
 .phonediv img{width:456px;height:596px}
 .applogo{position:absolute;left:600px;top:85px;width:139px;height:43px}
-.appword{position:absolute;left:600px;top:135px;height:78px;width:290px;font-family:TSZT;font-size:70px;font-weight:400;color:#201816;margin-top:-14px}
+.appword{position:absolute;left:600px;top:135px;height:78px;width:290px;font-family:TSZT;font-size:30px;font-weight:400;color:#201816;margin-top:-14px}
 .appcode{position:absolute;left:600px;top:267px;width:123px;height:123px}
 .androiddown{background:url(../images/app/dandroid1.png) no-repeat scroll 0 0;position:absolute;left:736px;top:267px;width:159px;height:46px}
 .iphonedown{background:url(../images/app/diphone1.png) no-repeat scroll 0 0;position:absolute;left:736px;top:344px;width:159px;height:46px}
