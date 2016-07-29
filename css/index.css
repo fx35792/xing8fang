@@ -165,8 +165,9 @@ background:url(../images/index/rocket_up.png) no-repeat scroll 0 0 transparent;c
 .abouttitle em{padding: 0px 3px;}
 .abouttitle span{color: #ff6a00;}
 .company_intro_content{margin-bottom: 50px;}
+.about-vedio{width:1000px;margin:10px auto 50px;text-align: center;}
 .company_intro_content h3{background: url(../images/aboutus/flag.png) no-repeat 0px;font-size: 26px;line-height: 70px;position: relative;color: rgb(0, 0, 0);font-weight: 900;padding-left: 30px;}
-.company_intro_content p{width: 920px;margin-left: 30px;margin-bottom:15px;color: #535353;line-height: 30px;white-space: normal;position: relative;font-size: 14px;}
+.company_intro_content p{width: 920px;margin-left: 30px;margin-bottom:15px;color: #535353;line-height: 30px;white-space: normal;position: relative;font-size: 14px;text-indent: 2em;}
 
 .company_staff_content{margin-bottom: 30px;}
 .company_address_content{margin-bottom: 50px;font-size: 14px;}
@@ -196,7 +197,7 @@ background:url(../images/index/rocket_up.png) no-repeat scroll 0 0 transparent;c
 .phonediv{position:absolute;left:0;bottom:-70px}
 .phonediv img{width:456px;height:596px}
 .applogo{position:absolute;left:600px;top:85px;width:139px;height:43px}
-.appword{position:absolute;left:600px;top:135px;height:78px;width:290px;font-family:TSZT;font-size:30px;font-weight:400;color:#201816;margin-top:-14px}
+.appword{position:absolute;left:600px;top:150px;height:78px;width:290px;font-family:TSZT;font-size:30px;font-weight:400;color:#201816;margin-top:-14px}
 .appcode{position:absolute;left:600px;top:267px;width:123px;height:123px}
 .androiddown{background:url(../images/app/dandroid1.png) no-repeat scroll 0 0;position:absolute;left:736px;top:267px;width:159px;height:46px}
 .iphonedown{background:url(../images/app/diphone1.png) no-repeat scroll 0 0;position:absolute;left:736px;top:344px;width:159px;height:46px}
